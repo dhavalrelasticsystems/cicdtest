@@ -1,4 +1,4 @@
-packag0e com.example.cicdtest.api;
+package com.example.cicdtest.api;
 
 import com.example.cicdtest.model.Furniture;
 import com.example.cicdtest.model.Store;
