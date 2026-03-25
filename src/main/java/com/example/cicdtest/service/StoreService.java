@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.HashSet;
+import java.util.List;
+import java.util.Optional;
 import java.util.Set;
 
 @Service
@@ -27,6 +29,14 @@ public class StoreService {
     public Store createStore(String name, String location) {
         Store store = new Store(name, location);
         return storeRepository.save(store);
+    }
+
+    public List<Store> getAllStores() {
+        return storeRepository.findAll();
+    }
+
+    public Optional<Store> getStoreById(Long id) {
+        return storeRepository.findById(id);
     }
 
     @Transactional

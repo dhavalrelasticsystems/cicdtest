@@ -1,0 +1,11 @@
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/CicdtestApplication.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/api/StoreController.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/config/SecurityConfig.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/model/Furniture.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/model/Material.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/model/Store.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/repository/FurnitureRepository.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/repository/MaterialRepository.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/repository/StoreRepository.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/security/ApiKeyFilter.java
+/workspaces/cicdtest/src/main/java/com/example/cicdtest/service/StoreService.java

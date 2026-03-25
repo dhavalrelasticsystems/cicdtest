@@ -1,4 +1,4 @@
-3*package com.example.cicdtest.api;
+packag0e com.example.cicdtest.api;
 
 import com.example.cicdtest.model.Furniture;
 import com.example.cicdtest.model.Store;
@@ -32,7 +32,7 @@ public class StoreController {
 
     @GetMapping("/{id}")
     public ResponseEntity<Store> getStore(@PathVariable Long id) {
-        return storeService.getSoreById(id)
+        return storeService.getStoreById(id)
                 .map(ResponseEntity::ok)
                 .orElse(ResponseEntity.notFound().build());
     }
